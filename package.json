@@ -1,0 +1,31 @@
+{
+  "name": "stripe-payment-pos-backend",
+  "version": "1.0.0",
+  "description": "Backend API for handling Stripe payments with BBPOS WisePOS E device",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stripe",
+    "payment",
+    "pos",
+    "bbpos",
+    "wisepos"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "stripe": "^14.5.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
