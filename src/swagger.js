@@ -18,35 +18,7 @@ const options = {
             default: 'http'
           },
           host: {
-            default: '192.168.0.10:3000',
-            description: 'Your host address (e.g. localhost:3000 or 192.168.1.100:3000)'
-          }
-        }
-      },
-      {
-        url: '{protocol}://{host}',
-        description: 'Development local server',
-        variables: {
-          protocol: {
-            enum: ['http', 'https'],
-            default: 'http'
-          },
-          host: {
             default: 'localhost:3000',
-            description: 'Your host address (e.g. localhost:3000 or 192.168.1.100:3000)'
-          }
-        }
-      },
-      {
-        url: '{protocol}://{host}',
-        description: 'ngrock server',
-        variables: {
-          protocol: {
-            enum: ['http', 'https'],
-            default: 'http'
-          },
-          host: {
-            default: '3658-183-83-147-177.ngrok-free.app',
             description: 'Your host address (e.g. localhost:3000 or 192.168.1.100:3000)'
           }
         }
